@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Build outputs
+build/
+dist/
+out/
+*.exe
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+.dump./rdb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Electron specific
+/desktopapp/build/
+/desktopapp/node_modules/
+/scrapers/node_modules/
+/Basura/
+/tweets_raw/
+/bs_raw/
+
+
+# Carpeta bs_raw y sus contenidos
+scrapers/bs_raw/
+scrapers/tweets_raw/
+servidor/bs_raw/
+servidor/resultados/
+dump.rdb
+

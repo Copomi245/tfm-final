@@ -1,0 +1,5 @@
+{
+  "ignore": ["resultados/*", "logs/*", "tmp/*"],
+  "watch": ["src", "api"],
+  "ext": "js,json"
+}
